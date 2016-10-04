@@ -56,7 +56,12 @@ GEM
       multipart-post (>= 1.2, < 3)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    google-id-token (1.3.1)
+      jwt
+      multi_json
     hashie (3.4.6)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     jwt (1.5.6)
     loofah (2.0.3)
@@ -151,6 +156,8 @@ PLATFORMS
 DEPENDENCIES
   byebug
   devise_token_auth
+  google-id-token
+  httparty
   omniauth-google-oauth2
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)

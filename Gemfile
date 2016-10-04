@@ -33,3 +33,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "omniauth-google-oauth2"
 gem 'devise_token_auth'
 gem 'google-id-token'
+gem 'httparty'
