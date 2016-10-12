@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a demo rails app the uses devise to authenticate ID tokens from an android app and creates devise auth tokens from it.
 
-Things you may want to cover:
 
-* Ruby version
+# Run
+`WEB_CLIENT_ID=<client id> rails s`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Where `client id` is the OAuth 2 client ID created when setting up an Android app for Google Sign in.
